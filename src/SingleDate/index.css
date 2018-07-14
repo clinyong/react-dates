@@ -1,0 +1,115 @@
+.container {
+  width: 280px;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+}
+
+.header {
+  height: 40px;
+  line-height: 40px;
+  border-bottom: 1px solid #e8e8e8;
+  text-align: center;
+  position: relative;
+}
+
+.header-selected {
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 14px;
+}
+
+.header-selected > span {
+  display: inline-block;
+  width: 35px;
+}
+
+.header-action {
+  position: absolute;
+  font-family: "anticon";
+  font-size: 16px;
+  padding: 0 5px;
+}
+
+.header-action:hover {
+  cursor: pointer;
+  color: #40a9ff;
+}
+
+.pre-year {
+  left: 7px;
+}
+
+.pre-year::after {
+  content: "\AB";
+}
+
+.next-year {
+  right: 7px;
+}
+
+.next-year::after {
+  content: "\BB";
+}
+
+.pre-month {
+  left: 29px;
+}
+.pre-month::after {
+  content: "\2039";
+}
+
+.next-month {
+  right: 29px;
+}
+.next-month::after {
+  content: "\203A";
+}
+
+.week-content-container {
+  padding: 8px 12px;
+  font-size: 14px;
+  color: #000000a6;
+}
+
+.content-row {
+  display: flex;
+}
+
+.cell {
+  line-height: 18px;
+  width: 36px;
+  padding: 6px 0;
+  display: inline-block;
+  text-align: center;
+}
+
+.day-cell {
+  padding: 3px 0;
+}
+
+.content-day {
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 2px;
+}
+
+.content-day:hover {
+  cursor: pointer;
+  background-color: #e6f7ff;
+}
+
+.content-day-select {
+  background: #1890ff;
+  color: #fff;
+}
+
+.content-day-select:hover {
+  background: #1890ff;
+  color: #fff;
+}
